@@ -40,7 +40,7 @@ if (buttons.every(button => button)) {
     };
 
     const handleTask2Click = (learningData: LearningDataInterface) => { 
-        perceptronForTask2.train(learningData.trainData, learningData.trainDataT, 500);
+        perceptron.train(learningData.trainData, learningData.trainDataT, 500);
     }
 
     buttons.forEach(button => {
